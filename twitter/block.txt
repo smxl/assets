@@ -27,6 +27,9 @@ twitter.com##main [data-testid=cellInnerDiv]:has-text(厉害了)
 
 ! Spam
 twitter.com##main [data-testid=cellInnerDiv]:has-text(互fo)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(QQ：)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(外围)
+twitter.com##main [data-testid=cellInnerDiv]:has-text((北京|上海|广州|深圳|武汉|天津|成都|重庆|西安|南京|杭州|郑州)(同城|资源))
 
 ! CHS
 twitter.com##main [data-testid=cellInnerDiv]:has-text(地狱笑话)
