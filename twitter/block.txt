@@ -5,22 +5,38 @@
 ! Homepage: https://github.com/smxl/static/
 
 ! Twitter Block List
+! Name
+twitter.com##main [data-testid=cellInnerDiv]:has-text(赵立坚)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(华春莹)
+
+! 粉红
 twitter.com##main [data-testid=cellInnerDiv]:has-text(🇨🇳)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(爱国)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(地狱笑话)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(反贼)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(粉红)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(精神内耗)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(厉害了)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(战争)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(武统)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(此生无悔入华夏)
+
+! 外交辞令
+twitter.com##main [data-testid=cellInnerDiv]:has-text(严厉谴责)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(严正抗议)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(强烈(抗议|不满))
 twitter.com##main [data-testid=cellInnerDiv]:has-text(外交部)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(厉害了)
+
+! Spam
+twitter.com##main [data-testid=cellInnerDiv]:has-text(互fo)
+
+! CHS
+twitter.com##main [data-testid=cellInnerDiv]:has-text(地狱笑话)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(精神内耗)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(微博)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(风水)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(豆瓣)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(蔚来)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(严厉谴责)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(战争)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(武统)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(赵立坚)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中(共|央))
-twitter.com##main [data-testid=cellInnerDiv]:has-text(互fo)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中(共|央|华|国))
+
+! CHT
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中(華|國|))
+
