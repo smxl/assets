@@ -1,9 +1,9 @@
-# Static
+# Assets
 
-### TVBox
+### TVBox - Static
 
 Pluto 配置文件
 
-### Twitter
+### Twitter - Active
 
 uBlock Origin 屏蔽词列表
