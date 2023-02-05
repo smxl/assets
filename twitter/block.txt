@@ -1,7 +1,7 @@
 ! Title: Twitter BL
 ! Description: Keyword for Twitter Block List
 ! Expires: 7 days
-! Last modified: 05.02.2023
+! Last modified: 06.02.2023
 ! Homepage: https://github.com/smxl/static/
 
 ! Twitter Block List
@@ -17,6 +17,7 @@ twitter.com##main [data-testid=cellInnerDiv]:has-text(粉红)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(战争)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(武统)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(此生无悔入华夏)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(你(可以永远|永远可以)相信)
 
 ! 外交辞令
 twitter.com##main [data-testid=cellInnerDiv]:has-text(严厉谴责)
