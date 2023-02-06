@@ -2,7 +2,7 @@
 ! Description: Keyword for Twitter Block List
 ! Expires: 4 days
 ! Last modified: 06.02.2023
-! Homepage: https://github.com/smxl/static/
+! Homepage: https://github.com/smxl/assets/
 
 ! Twitter Block List
 ! Name
