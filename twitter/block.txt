@@ -1,6 +1,6 @@
 ! Title: Twitter BL
 ! Description: Keyword for Twitter Block List
-! Expires: 7 days
+! Expires: 4 days
 ! Last modified: 06.02.2023
 ! Homepage: https://github.com/smxl/static/
 
@@ -30,6 +30,22 @@ twitter.com##main [data-testid=cellInnerDiv]:has-text(强烈抗议)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(外交部)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(厉害了)
 
+! CHS
+twitter.com##main [data-testid=cellInnerDiv]:has-text(地狱笑话)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(精神内耗)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(微博)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(风水)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(豆瓣)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(蔚来)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中国)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中共)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中央)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中华)
+
+! CHT
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中國)
+twitter.com##main [data-testid=cellInnerDiv]:has-text(中華)
+
 ! Spam
 twitter.com##main [data-testid=cellInnerDiv]:has-text(互fo)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(QQ：)
@@ -58,20 +74,3 @@ twitter.com##main [data-testid=cellInnerDiv]:has-text(杭州同城)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(杭州资源)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(郑州同城)
 twitter.com##main [data-testid=cellInnerDiv]:has-text(郑州资源)
-
-! CHS
-twitter.com##main [data-testid=cellInnerDiv]:has-text(地狱笑话)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(精神内耗)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(微博)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(风水)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(豆瓣)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(蔚来)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中国)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中共)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中央)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中华)
-
-! CHT
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中國)
-twitter.com##main [data-testid=cellInnerDiv]:has-text(中華)
-
