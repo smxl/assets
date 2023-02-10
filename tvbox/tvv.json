@@ -5,9 +5,7 @@
 "lives": [{
 "group": "redirect",
 "channels": [
-{"name": "live","urls": ["proxy://do=live&type=txt&ext=https://github.com/smxl/assets/raw/main/tvbox/live.txt"]},
-{"name": "iptv","urls": ["https://iptv-org.github.io/iptv/index.nsfw.m3u"]}
-]
+{"name": "live","urls": ["proxy://do=live&type=txt&ext=https://github.com/smxl/assets/raw/main/tvbox/live.txt"]}]
 },
 {"group": "iptv2","channels": [{"name": "iptv2","urls": ["https://iptv-org.github.io/iptv/index.nsfw.m3u"]}]}
 ],
