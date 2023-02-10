@@ -1,9 +1,16 @@
 {
 //"spider":"",
 
-"lives":[{"group":"redirect","channels":[
-{"name":"live","urls":["proxy://do=live&type=txt&ext=https://github.com/smxl/assets/raw/main/tvbox/live.txt"]}
-]}],
+
+"lives": [{
+"group": "redirect",
+"channels": [
+{"name": "live","urls": ["proxy://do=live&type=txt&ext=https://github.com/smxl/assets/raw/main/tvbox/live.txt"]},
+{"name": "iptv","urls": ["https://iptv-org.github.io/iptv/index.nsfw.m3u"]}
+]
+},
+{"group": "iptv2","channels": [{"name": "iptv2","urls": ["https://iptv-org.github.io/iptv/index.nsfw.m3u"]}]}
+],
 
 "sites":[
 
@@ -13,9 +20,7 @@
 {"key":"haiwaikan","name":"海外看","type":1,"api":"https://api.haiwaikan.com/v1/vod?ac=list","searchable":1,"quickSearch":0,"filterable":0},
 {"key":"csp_xpath_独播库","name":"独播库 SysCodec","type":3,"api":"csp_XPathMacFilter","playerType":0,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/dlgt7/gao/raw/master/json/duboku.json","jar":"https://github.com/gaotianliuyun/gao/raw/master/jar/top98_1.jar;md5;31259341cb1a5ed11da14804d14f1054"},
 {"key":"csp_biubiu_手机看剧","name":"手机看剧","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/smxl/assets/raw/main/tvbox/json/手机看剧.json","jar":"https://github.com/smxl/assets/raw/main/tvbox/jar/XBiubiuLA4.jar;md5;e5b305191b8a3118bfede03a27143c19"},
-{"key":"csp_xpath_348z","name":"348z","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/smxl/assets/raw/main/tvbox/json/348z.json","jar":"https://github.com/smxl/assets/raw/main/tvbox/jar/XBiubiuLA4.jar;md5;e5b305191b8a3118bfede03a27143c19"},
-{"key":"drpy_js_我的哔哩","name":"Bili","type":3,"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js","ext":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/我的哔哩.js"},
-{"key":"push_agent","name":"推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0}
+{"key":"csp_xpath_348z","name":"348z","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/smxl/assets/raw/main/tvbox/json/348z.json","jar":"https://github.com/smxl/assets/raw/main/tvbox/jar/XBiubiuLA4.jar;md5;e5b305191b8a3118bfede03a27143c19"}
 ],
 
 "parses":[
