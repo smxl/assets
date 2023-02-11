@@ -2,7 +2,7 @@
 //"spider":"",
 
 "lives":[
-{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=https://github.com/smxl/assets/raw/main/tvbox/live.txt"]}]}
+{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NteGwvYXNzZXRzL21haW4vdHZib3gvbGl2ZS50eHQ="]}]}
 ],
 
 "sites":[
